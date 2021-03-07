@@ -1,0 +1,20 @@
+html 
+    head
+        title= title 
+    body 
+    div
+        h1 test
+        h4 test
+        table 
+            thead
+                tr 
+                    th ID 
+                    th Name 
+                    th email 
+                    th mobile
+            each item in items 
+                tr 
+                    td=item.id 
+                    td=item.name
+                    td=item.email 
+                    td=item.mobile
